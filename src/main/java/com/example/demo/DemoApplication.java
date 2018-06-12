@@ -15,6 +15,7 @@ public class DemoApplication {
 
     @RequestMapping()
     public String index(){
+        System.out.println("woshiliujin");
         return "Hello liujin";
     }
 }
